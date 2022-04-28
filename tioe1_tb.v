@@ -7,9 +7,8 @@ module tioe1_tb();
 
     initial begin
         t_input = 4'b0000;
-        repeat(15)
+        repeat(16)
             #10 t_input = t_input + 4'b0001;
-        #10 t_input = 4'b0000;
     end
 
     initial begin
